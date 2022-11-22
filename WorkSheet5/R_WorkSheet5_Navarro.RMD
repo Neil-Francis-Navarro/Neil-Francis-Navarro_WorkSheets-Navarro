@@ -159,4 +159,5 @@ barplot(trans3, beside = TRUE,
         col = c("red","green","blue"))
 ```
 
+
 ***Figure 1: Iris Data using Barplot***
