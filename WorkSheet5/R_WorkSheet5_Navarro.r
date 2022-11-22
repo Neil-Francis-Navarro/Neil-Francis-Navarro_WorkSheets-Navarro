@@ -132,4 +132,5 @@ barplot(trans3, beside = TRUE,
         xlab = "Characteristics",
         ylab = "Mean Scores",
         col = c("red","green","blue"))
+
 #Figure 1: Iris Data using Barplot
