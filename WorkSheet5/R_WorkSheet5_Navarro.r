@@ -33,8 +33,14 @@ numb1b <- barplot(date2019_2020,
 
 #a. Create a table for the above scenario.
 #Write the codes and its result.
-expenses <- c(60,10,5,25)
 
+num2a <- data.frame(
+  expenses = c("Food", "Electricity", "Savings", "Miscllaneous"),
+  percentage = c(60,10,5,25)
+)
+num2a
+
+expenses <- c(60,10,5,25)
 barplot(expenses,names.arg = c("Food", "Electricity", "Savings", "Miscllaneous"))
 
 
