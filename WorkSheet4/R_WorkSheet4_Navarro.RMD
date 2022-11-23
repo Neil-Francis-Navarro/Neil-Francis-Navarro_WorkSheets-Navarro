@@ -107,7 +107,7 @@ print(newOrderData)
 
 ```{r, num5a}
 library(readr)
-import_march <- read_csv("import.march.csv")
+import_march <- read.table("import.march.csv")
 View(import_march)
 ```
 
