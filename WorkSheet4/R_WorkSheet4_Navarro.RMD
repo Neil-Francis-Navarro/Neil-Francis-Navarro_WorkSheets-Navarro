@@ -116,3 +116,34 @@ View(import_march)
 ```{r, num5b}
 import_march)
 ```
+
+***Result***
+
+# A tibble: 101 × 12
+
+   ...1  ...2              ...3             ...4            ...5  ...6  ...7   ...8 ...9  ...10 ...11 ...12
+   
+   
+   <lgl> <chr>             <chr>            <chr>           <chr> <chr> <lgl> <dbl> <chr> <chr> <dbl> <dbl>
+   
+   
+ 1 NA    Sepal Length (cm) Sepal Width (cm) Petal Length (… Peta… Class NA       NA alpha obj      NA    NA
+ 
+ 2 NA    7                 3.2              4.7             1.4   Iris… NA        0 0     0         0     1
+ 
+ 3 NA    6.4               3.2              4.5             1.5   Iris… NA        0 NA    NA        0     1
+ 
+ 4 NA    6.9               3.1              4.9             1.5   Iris… NA        0 NA    NA        0     1
+ 
+ 5 NA    5.5               2.3              4               1.3   Iris… NA        0 NA    NA        0     1
+ 
+ 6 NA    6.5               2.8              4.6             1.5   Iris… NA       NA NA    NA        0     1
+ 
+ 7 NA    5.7               2.8              4.5             1.3   Iris… NA       NA NA    NA        0     1
+ 
+ 8 NA    6.3               3.3              4.7             1.6   Iris… NA       NA NA    NA        0     1
+ 
+ 9 NA    4.9               2.4              3.3             1     Iris… NA       NA NA    NA        0     1
+ 
+10 NA    6.6               2.9              4.6             1.3   Iris… NA       NA NA    NA        0     1
+
