@@ -89,13 +89,12 @@ print(newOrderData)
 #5. Enter the data below in Excel with file name = import_march.csv
 
 #a. Import the excel file into the Environment Pane using read.table() function.
-
-
-import_march.csv <- read_excel("iris_sample.xls")
-import_march.csv
+library(readr)
+import_march <- read_csv("import.march.csv")
+View(import_march)
 
 #b. View the dataset. Write the code and its result.
-import_march.csv
+import_march
 
 
 
