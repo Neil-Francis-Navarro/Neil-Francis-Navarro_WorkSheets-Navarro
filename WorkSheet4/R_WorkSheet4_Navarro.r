@@ -90,7 +90,7 @@ print(newOrderData)
 
 #a. Import the excel file into the Environment Pane using read.table() function.
 library(readr)
-import_march <- read_csv("import.march.csv")
+import_march <- read.table("import.march.csv")
 View(import_march)
 
 #b. View the dataset. Write the code and its result.
