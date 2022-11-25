@@ -92,8 +92,12 @@ qplot(model,
 
 #b. Use only the top 20 observations. Show code and results.
 
-barplot(datampg4$Counts[1:20],
-        names.arg=datampg4$Model[1:20])
+cars_Model <- mpg %>% 
+  group_by(model) %>% 
+  tally(sort = TRUE)
+cars_Model
+ggplot(cars_Model, aes(x = model, y = n, fill = "red")) +
+  geom_bar(stat = "identity") + coord_flip()
 
 #5. Plot the relationship between cyl - number of cylinders and displ - 
 #engine displacement using geom_point with aesthetic colour = engine displacement.
